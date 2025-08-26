@@ -17,7 +17,7 @@ public class HelloWorld {
         System.out.println("Hello, " + name + "!");
     }
 
-    // Overloaded greet method
+    // Overloaded method with a custom message
     public void greet(String message) {
         System.out.println(message + ", " + name + "!");
     }
